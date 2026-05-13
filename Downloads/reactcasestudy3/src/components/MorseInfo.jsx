@@ -89,7 +89,7 @@ function MorseInfo() {
           wrought?"</em> — from the U.S. Capitol in Washington, D.C. to a railroad
           station in Baltimore, Maryland. This moment marked the birth of long-distance
           electronic communication and changed the world forever.
-        </p>
+        </p> 
         </section>
         <section className="info-section" id="morse-timeline">
         <div className="section-badge">Timeline</div>
