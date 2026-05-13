@@ -10,7 +10,7 @@ const quickRef = [
 
 const funFacts = [
   {
-    emoji: '🚢',
+
     title: 'Titanic SOS',
     text: 'The Titanic\'s distress signal in 1912 was one of the most famous uses of Morse code. Operators sent "CQD" and the newer "SOS" to call for help.',
   },
@@ -20,12 +20,12 @@ const funFacts = [
     text: '"What hath God wrought?" — the first official Morse code message sent by Samuel Morse on May 24, 1844, from Washington D.C. to Baltimore.',
   },
   {
-    emoji: '🏆',
+
     title: 'Still in Use',
     text: 'Morse code is still used today by amateur radio operators, aviation, and the military. It was officially retired from maritime use only in 1999.',
   },
   {
-    emoji: '👁️',
+
     title: 'Accessibility',
     text: 'Morse code helps people with disabilities communicate. Google\'s Gboard keyboard supports Morse input for users with limited mobility.',
   },
@@ -111,7 +111,7 @@ function MorseInfo() {
         <h2>Why Does Morse Code Still Matter?</h2>
         <div className="importance-grid">
           <div className="importance-card">
-            <span className="importance-icon">🆘</span>
+            <span className="importance-icon"></span>
             <h3>Emergency Survival</h3>
             <p>
               In emergencies where electronic communication fails, Morse code can save
@@ -120,7 +120,7 @@ function MorseInfo() {
             </p>
           </div>
           <div className="importance-card">
-            <span className="importance-icon">📡</span>
+            <span className="importance-icon"></span>
             <h3>Radio Communication</h3>
             <p>
               Amateur (ham) radio operators worldwide still use Morse code daily. It
@@ -129,7 +129,7 @@ function MorseInfo() {
             </p>
           </div>
           <div className="importance-card">
-            <span className="importance-icon">♿</span>
+            <span className="importance-icon"></span>
             <h3>Assistive Technology</h3>
             <p>
               Morse code empowers people with physical disabilities to communicate.
@@ -138,7 +138,7 @@ function MorseInfo() {
             </p>
           </div>
           <div className="importance-card">
-            <span className="importance-icon">✈️</span>
+            <span className="importance-icon"></span>
             <h3>Aviation & Navigation</h3>
             <p>
               Navigational beacons (VOR, NDB) at airports still identify themselves
